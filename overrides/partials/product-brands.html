@@ -1,0 +1,13 @@
+<section class="section product-brands" aria-labelledby="product-brands-title">
+  <div class="wrap">
+    <div class="section-heading">
+      <div><p class="eyebrow">PRODUCT BRANDS</p><h2 id="product-brands-title">แบรนด์ผลิตภัณฑ์ที่เราจัดหา</h2></div>
+      <a class="text-link" href="{{ 'contact/' | url }}">สอบถามผลิตภัณฑ์ <span aria-hidden="true">↗</span></a>
+    </div>
+    <ul class="brand-grid" role="list">
+      {% for brand in config.extra.product_brands %}
+      <li class="brand-card"><div class="brand-logo"><img src="{{ ('assets/images/' ~ brand.image) | url }}" alt="โลโก้ {{ brand.name }}" loading="lazy"></div><span>{{ brand.name }}</span></li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

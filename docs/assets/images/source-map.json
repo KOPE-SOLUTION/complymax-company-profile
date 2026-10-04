@@ -81,6 +81,14 @@
       "image_object": "Image89"
     }
   },
+  "brand_logos": {
+    "brand-igema.jpg": "pdf-1/page-04-img-10.jpg",
+    "brand-yarway.png": "pdf-1/page-04-img-00.png",
+    "brand-pvtvm.png": "pdf-1/page-04-img-06.png",
+    "brand-maxos.png": "pdf-1/page-04-img-07.png",
+    "brand-badotherm.jpg": "pdf-1/page-04-img-05.jpg",
+    "brand-siemens.png": "pdf-1/page-04-img-04.png"
+  },
   "product_images": {
     "company-crest.png": "pdf-1/page-01-img-01.jpg",
     "pressure-instruments.webp": "pdf-1/page-09-img-00.jpg",

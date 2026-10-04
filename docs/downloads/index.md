@@ -1,7 +1,0 @@
----
-title: ดาวน์โหลด Company Profile
-description: ดาวน์โหลด Company Profile และเอกสารบริการ Overhaul Sight Glass ของ COMPLYMAX ในรูปแบบ PDF
----
-
-<section class="page-hero"><div class="wrap"><p class="eyebrow">COMPANY DOCUMENTS</p><h1>ข้อมูลบริษัท<br>พร้อมส่งต่อให้ทีมของคุณ</h1><p class="lead">รายละเอียดผลิตภัณฑ์ ขอบเขตบริการ Workshop และผลงานอ้างอิง<br>ในรูปแบบ PDF</p></div></section>
-<section class="section section-pale"><div class="wrap downloads-grid"><article class="download-card"><div class="pdf-icon"><span>PDF</span><span>COMPANY PROFILE / 21 PAGES</span></div><h2>Company Profile</h2><p>ภาพรวมบริษัท กลุ่มอุตสาหกรรม ผลิตภัณฑ์เครื่องมือวัด วาล์ว อุปกรณ์ Boiler อะไหล่ และข้อมูลติดต่อ</p><div class="actions"><a class="button button-dark" href="../assets/downloads/complymax-company-profile.pdf" download>ดาวน์โหลด PDF <span>↓</span></a><a class="text-link" href="../assets/downloads/complymax-company-profile.pdf" target="_blank" rel="noopener">เปิดอ่าน <span>↗</span></a></div></article><article class="download-card"><div class="pdf-icon"><span>PDF</span><span>SERVICE PROFILE / 14 PAGES</span></div><h2>Overhaul Sight Glass</h2><p>รายละเอียดงานบริการ ขั้นตอน Overhaul ภาพ Workshop อุปกรณ์ทดสอบ และภาพผลงานก่อน–หลังปี 2023–2025</p><div class="actions"><a class="button button-dark" href="../assets/downloads/complymax-sight-glass-service.pdf" download>ดาวน์โหลด PDF <span>↓</span></a><a class="text-link" href="../assets/downloads/complymax-sight-glass-service.pdf" target="_blank" rel="noopener">เปิดอ่าน <span>↗</span></a></div></article></div></section>

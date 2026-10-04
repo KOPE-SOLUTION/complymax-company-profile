@@ -29,12 +29,12 @@ python -m mkdocs serve
 | หน้าแรก                                               | `docs/index.md`                                 |
 | ข้อมูลบริษัท                                          | `docs/about/index.md`                           |
 | สินค้า 8 หมวด                                         | `docs/products/index.md`                        |
+| รายชื่อและโลโก้แบรนด์                                  | `mkdocs.yml` → `extra.product_brands`, `overrides/partials/product-brands.html` |
 | ขั้นตอน Overhaul                                      | `docs/services/index.md`                        |
 | ผลงานและภาพก่อน–หลัง                                  | `docs/projects/index.md`                        |
 | Workshop                                              | `docs/workshop/index.md`                        |
-| ดาวน์โหลด PDF                                         | `docs/downloads/index.md`                       |
 | รายละเอียดติดต่อ                                      | `docs/contact/index.md`                         |
-| ภาพและ PDF                                            | `docs/assets/images/`, `docs/assets/downloads/` |
+| ภาพและโลโก้                                           | `docs/assets/images/`                          |
 
 หน้าเนื้อหามี HTML เพื่อจัด layout อยู่ใน Markdown แก้ข้อความได้โดยรักษา tag และ `class` ไว้ หากแก้เบอร์โทรหรืออีเมล ให้แก้ทั้ง `mkdocs.yml`, หน้าติดต่อ และลิงก์สอบถามในหน้าสินค้า
 
@@ -45,7 +45,7 @@ python -m mkdocs build --strict
 python scripts/check_site.py site
 ```
 
-ตรวจหน้าแรกและหน้าสินค้าที่ขนาด desktop และมือถือ เมนูมือถือ ตัวกรองสินค้า ภาพก่อน–หลัง ปุ่มโทร อีเมล และดาวน์โหลด PDF
+ตรวจหน้าแรกและหน้าสินค้าที่ขนาด desktop และมือถือ เมนูมือถือ ตัวกรองสินค้า โลโก้แบรนด์ ภาพก่อน–หลัง ปุ่มโทร อีเมล และลิงก์ KOPE SOLUTION ไปที่โปรไฟล์ GitHub
 
 ## เผยแพร่
 

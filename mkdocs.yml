@@ -25,7 +25,20 @@ extra:
   contact_name: วราธร อจละนันท์
   contact_phone: 086-360-4419
   contact_phone_uri: "+66863604419"
-  repository: https://github.com/KOPE-SOLUTION/complymax-company-profile
+  maintainer_url: https://github.com/KOPE-SOLUTION
+  product_brands:
+    - name: IGEMA
+      image: brand-igema.jpg
+    - name: YARWAY
+      image: brand-yarway.png
+    - name: PVTVM
+      image: brand-pvtvm.png
+    - name: MAXOS
+      image: brand-maxos.png
+    - name: BADOTHERM
+      image: brand-badotherm.jpg
+    - name: SIEMENS
+      image: brand-siemens.png
 nav:
   - หน้าแรก: index.md
   - รู้จักบริษัท: about/index.md
@@ -33,5 +46,4 @@ nav:
   - บริการ: services/index.md
   - ผลงาน: projects/index.md
   - Workshop: workshop/index.md
-  - ดาวน์โหลด: downloads/index.md
   - ติดต่อ: contact/index.md

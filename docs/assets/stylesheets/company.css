@@ -1034,51 +1034,43 @@ p + p {
   background: var(--gold-light);
   color: var(--navy);
 }
-.case-note {
-  color: var(--muted);
-  font-size: 0.76rem;
-  margin-top: 14px;
+.product-brands {
+  border-top: 1px solid var(--line);
 }
-.downloads-grid {
+.brand-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 28px;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 14px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
-.download-card {
+.brand-card {
   border: 1px solid var(--line);
-  padding: 35px;
+  padding: 24px 18px 18px;
   background: #fff;
+  text-align: center;
 }
-.pdf-icon {
+.brand-logo {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  color: #947238;
-  font-size: 0.65rem;
-  letter-spacing: 1px;
-  padding-bottom: 25px;
-  border-bottom: 1px solid var(--line);
-  margin-bottom: 25px;
+  justify-content: center;
+  height: 86px;
 }
-.pdf-icon > span:first-child {
-  font:
-    700 24px/1.2 "Segoe UI",
-    sans-serif;
-  letter-spacing: -1px;
+.brand-logo img {
+  width: auto;
+  height: auto;
+  max-height: 80px;
+  max-width: 100%;
+  object-fit: contain;
 }
-.download-card h2 {
-  font-size: 1.5rem;
-}
-.download-card p {
+.brand-card > span {
+  display: block;
+  margin-top: 20px;
   color: var(--muted);
-  font-size: 0.9rem;
-  margin-block: 18px 25px;
-}
-.download-card .actions {
-  gap: 20px;
-}
-.download-card .text-link {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
+  font-weight: 650;
+  letter-spacing: 1px;
 }
 .contact-grid {
   display: grid;
@@ -1206,6 +1198,9 @@ p + p {
   }
 }
 @media (max-width: 960px) {
+  .brand-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
   .header-inner {
     min-height: 79px;
   }
@@ -1739,21 +1734,16 @@ p + p {
     padding: 6px 10px;
     font-size: 0.56rem;
   }
-  .case-note {
-    font-size: 0.7rem;
-  }
   .project-index {
     gap: 14px 22px;
     font-size: 0.75rem;
   }
-  .downloads-grid {
-    grid-template-columns: 1fr;
+  .brand-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
   }
-  .download-card {
-    padding: 27px;
-  }
-  .download-card h2 {
-    font-size: 1.4rem;
+  .brand-card {
+    padding: 20px 14px 16px;
   }
   .contact-grid {
     grid-template-columns: 1fr;
