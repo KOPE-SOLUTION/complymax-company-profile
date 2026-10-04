@@ -1,0 +1,37 @@
+site_name: COMPLYMAX
+site_url: https://kope-solution.github.io/complymax-company-profile/
+site_description: COMPLYMAX เครื่องมือวัดอุตสาหกรรม วาล์ว อะไหล่ และบริการ Overhaul Sight Glass พร้อม Workshop ที่ระยอง
+site_author: COMPLYMAX CO., LTD.
+docs_dir: docs
+site_dir: site
+use_directory_urls: true
+theme:
+  name: material
+  custom_dir: overrides
+  language: th
+  font: false
+plugins: []
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: false
+extra:
+  company_name: COMPLYMAX CO., LTD.
+  phone: 095-803-6047
+  phone_uri: "+66958036047"
+  email: 9dcomplymax@gmail.com
+  contact_name: วราธร อจละนันท์
+  contact_phone: 086-360-4419
+  contact_phone_uri: "+66863604419"
+  repository: https://github.com/KOPE-SOLUTION/complymax-company-profile
+nav:
+  - หน้าแรก: index.md
+  - รู้จักบริษัท: about/index.md
+  - ผลิตภัณฑ์: products/index.md
+  - บริการ: services/index.md
+  - ผลงาน: projects/index.md
+  - Workshop: workshop/index.md
+  - ดาวน์โหลด: downloads/index.md
+  - ติดต่อ: contact/index.md

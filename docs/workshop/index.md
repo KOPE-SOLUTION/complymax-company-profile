@@ -1,0 +1,8 @@
+---
+title: Workshop ที่ระยอง
+description: พื้นที่ปฏิบัติงาน เครน Pressure Hydro Test และ Bench Test สำหรับ Safety Valve ใน Workshop ที่ระยอง
+---
+
+<section class="page-hero"><div class="wrap"><p class="eyebrow">FACILITY / RAYONG</p><h1>Workshop ที่ระยอง</h1><p class="lead">พื้นที่และอุปกรณ์สำหรับรองรับงานซ่อมบำรุง<br>ตั้งแต่ตรวจสภาพชิ้นส่วนจนถึงการทดสอบอุปกรณ์</p></div></section>
+<section class="section"><div class="wrap two-column"><div><p class="eyebrow">SERVICE FACILITY</p><h2>พื้นที่พร้อมสำหรับ<br>งานบริการอุตสาหกรรม</h2><p>Workshop ประกอบด้วยพื้นที่ปฏิบัติงานภายใน เครน อุปกรณ์ Pressure Hydro Test และ Bench Test สำหรับ Safety Valve</p><p>ติดต่อทีมงานเพื่อนัดหมายและประเมินขอบเขตงาน รวมถึงข้อกำหนดการทดสอบของอุปกรณ์ก่อนนำส่งเข้ารับบริการ</p><div class="actions" style="margin-top:26px"><a class="button button-dark" href="../contact/">นัดหมายกับทีมงาน <span>↗</span></a></div></div><img src="../assets/images/workshop.webp" alt="ภายนอกอาคาร Workshop ที่ระยอง" width="1235" height="553"></div></section>
+<section class="section section-pale"><div class="wrap"><p class="eyebrow">TESTING FACILITIES</p><h2>อุปกรณ์ทดสอบและงานบริการ</h2><div class="photo-grid"><figure><img src="../assets/images/hydro-test.webp" alt="อุปกรณ์ Pressure Hydro Test ใน Workshop" loading="lazy" width="800" height="600"><figcaption><strong>Pressure Hydro Test</strong> · อุปกรณ์สำหรับทดสอบความดัน</figcaption></figure><figure><img src="../assets/images/safety-valve-test.webp" alt="Bench Test สำหรับทดสอบ Safety Valve" loading="lazy" width="800" height="600"><figcaption><strong>Safety Valve Bench Test</strong> · ชุดทดสอบ Safety Valve</figcaption></figure></div></div></section>

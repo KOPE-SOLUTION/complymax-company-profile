@@ -1,0 +1,95 @@
+{
+  "photos": {
+    "field-service": {
+      "document": "complymax-sight-glass-service.pdf",
+      "pdf_page": 9,
+      "image_object": "Image61"
+    },
+    "workshop": {
+      "document": "complymax-sight-glass-service.pdf",
+      "pdf_page": 6,
+      "image_object": "Image44"
+    },
+    "hydro-test": {
+      "document": "complymax-sight-glass-service.pdf",
+      "pdf_page": 7,
+      "image_object": "Image54"
+    },
+    "safety-valve-test": {
+      "document": "complymax-sight-glass-service.pdf",
+      "pdf_page": 7,
+      "image_object": "Image51"
+    },
+    "inspection": {
+      "document": "complymax-sight-glass-service.pdf",
+      "pdf_page": 10,
+      "image_object": "Image66"
+    },
+    "spare-parts": {
+      "document": "complymax-sight-glass-service.pdf",
+      "pdf_page": 11,
+      "image_object": "Image71"
+    },
+    "pressure-test": {
+      "document": "complymax-sight-glass-service.pdf",
+      "pdf_page": 12,
+      "image_object": "Image76"
+    },
+    "reinstall": {
+      "document": "complymax-sight-glass-service.pdf",
+      "pdf_page": 12,
+      "image_object": "Image78"
+    },
+    "yarway-2023-before": {
+      "document": "complymax-sight-glass-service.pdf",
+      "pdf_page": 13,
+      "image_object": "Image84"
+    },
+    "yarway-2023-after": {
+      "document": "complymax-sight-glass-service.pdf",
+      "pdf_page": 13,
+      "image_object": "Image83"
+    },
+    "klinger-2024-before": {
+      "document": "complymax-sight-glass-service.pdf",
+      "pdf_page": 13,
+      "image_object": "Image85"
+    },
+    "klinger-2024-after": {
+      "document": "complymax-sight-glass-service.pdf",
+      "pdf_page": 13,
+      "image_object": "Image82"
+    },
+    "klinger-2025-before": {
+      "document": "complymax-sight-glass-service.pdf",
+      "pdf_page": 14,
+      "image_object": "Image90"
+    },
+    "klinger-2025-after": {
+      "document": "complymax-sight-glass-service.pdf",
+      "pdf_page": 14,
+      "image_object": "Image78"
+    },
+    "igema-2025-before": {
+      "document": "complymax-sight-glass-service.pdf",
+      "pdf_page": 14,
+      "image_object": "Image88"
+    },
+    "igema-2025-after": {
+      "document": "complymax-sight-glass-service.pdf",
+      "pdf_page": 14,
+      "image_object": "Image89"
+    }
+  },
+  "product_images": {
+    "company-crest.png": "pdf-1/page-01-img-01.jpg",
+    "pressure-instruments.webp": "pdf-1/page-09-img-00.jpg",
+    "temperature-instruments.webp": "pdf-1/page-10-img-00.jpg",
+    "flow-instruments.webp": "pdf-1/page-13-img-00.jpg",
+    "level-instruments.webp": "pdf-1/page-12-img-01.jpg",
+    "control-valve.webp": "pdf-1/page-14-img-03.jpg",
+    "sight-glass.webp": "pdf-1/page-05-img-01.jpg",
+    "tank-protection.webp": "pdf-1/page-20-img-00.jpg",
+    "boiler-level.webp": "pdf-1/page-19-img-00.jpg"
+  }
+}

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101e30">
+  <title>{% if page and not page.is_homepage %}{{ page.title }} | {% endif %}COMPLYMAX — Industrial Instruments & Service</title>
+  <meta name="description" content="{{ page.meta.description | default(config.site_description, true) | e }}">
+  <link rel="canonical" href="{{ page.canonical_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="th_TH">
+  <meta property="og:title" content="{{ page.title | e }} | COMPLYMAX">
+  <meta property="og:description" content="{{ page.meta.description | default(config.site_description, true) | e }}">
+  <meta property="og:url" content="{{ page.canonical_url }}">
+  <meta property="og:image" content="{{ config.site_url }}assets/images/workshop.webp">
+  <link rel="icon" href="{{ 'assets/images/company-crest.png' | url }}" type="image/png">
+  <link rel="stylesheet" href="{{ 'assets/stylesheets/company.css' | url }}">
+  <script src="{{ 'assets/javascripts/company.js' | url }}" defer></script>
+  <script type="application/ld+json">{{ {'@context':'https://schema.org','@type':'Organization','name':config.extra.company_name,'url':config.site_url,'logo':config.site_url ~ 'assets/images/company-crest.png','telephone':config.extra.phone_uri,'email':config.extra.email} | tojson }}</script>
+</head>
+<body class="{% if page.is_homepage %}home{% else %}inner-page{% endif %}">
+  <a class="skip-link" href="#main">ข้ามไปเนื้อหา</a>
+  <div class="topline"><div class="wrap"><span>INDUSTRIAL INSTRUMENTS & SERVICE</span><a href="tel:{{ config.extra.phone_uri }}">พูดคุยกับทีมงาน <b>{{ config.extra.phone }}</b> <span aria-hidden="true">↗</span></a></div></div>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="{{ '.' | url }}" aria-label="COMPLYMAX หน้าแรก"><img src="{{ 'assets/images/company-crest.png' | url }}" alt="ตราบริษัท COMPLYMAX" width="37" height="52"><span><strong>COMPLYMAX<span class="brand-dot">.</span></strong><small>ENGINEERING CONFIDENCE</small></span></a>
+      <button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false"><span>เมนู</span><svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="1.7"/></svg></button>
+      <nav id="site-nav" aria-label="เมนูหลัก">
+        {% for item in nav %}{% if not item.is_homepage %}<a href="{{ item.url | url }}" {% if item.active %}aria-current="page"{% endif %} {% if loop.last %}class="nav-contact"{% endif %}>{{ item.title }}{% if loop.last %}<span aria-hidden="true">↗</span>{% endif %}</a>{% endif %}{% endfor %}
+      </nav>
+    </div>
+  </header>
+  <main id="main">{{ page.content }}</main>
+  <section class="contact-band"><div class="wrap"><div><p class="eyebrow">LET'S TALK ABOUT YOUR REQUIREMENT</p><h2>เริ่มจากโจทย์หน้างานของคุณ</h2><p>ปรึกษาการเลือกอุปกรณ์ อะไหล่ หรืองานบริการกับทีม COMPLYMAX</p></div><a class="button button-gold" href="{{ 'contact/' | url }}">ติดต่อทีมงาน <span aria-hidden="true">↗</span></a></div></section>
+  <footer class="site-footer"><div class="wrap footer-main"><div><a class="footer-brand" href="{{ '.' | url }}">COMPLYMAX<span>.</span></a><p>เครื่องมือวัด วาล์ว และบริการสำหรับอุตสาหกรรม<br>COMPLYMAX CO., LTD.</p></div><div><h2>ข้อมูลบริษัท</h2><a href="{{ 'about/' | url }}">รู้จัก COMPLYMAX</a><a href="{{ 'projects/' | url }}">ผลงานอ้างอิง</a><a href="{{ 'downloads/' | url }}">ดาวน์โหลด Company Profile</a></div><div><h2>ติดต่อเรา</h2><a href="tel:{{ config.extra.phone_uri }}">{{ config.extra.phone }}</a><a href="mailto:{{ config.extra.email }}">{{ config.extra.email }}</a><p>Workshop · ระยอง</p></div></div><div class="wrap footer-bottom"><span>© {{ build_date_utc.year }} COMPLYMAX CO., LTD.</span><span>Website maintained by <a href="{{ config.extra.repository }}">KOPE SOLUTION ↗</a></span></div></footer>
+</body>
+</html>

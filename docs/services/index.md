@@ -1,0 +1,13 @@
+---
+title: บริการ Overhaul Sight Glass
+description: บริการถอด ตรวจสภาพ ทำความสะอาด เปลี่ยนอะไหล่ ทดสอบความดันและการรั่ว และติดตั้ง Sight Glass กลับ โดย COMPLYMAX
+---
+
+<section class="page-hero"><div class="wrap"><p class="eyebrow">SPECIALIZED SERVICE</p><h1>Overhaul Sight Glass</h1><p class="lead">ดูแลอุปกรณ์ตั้งแต่ถอดจากหน้างาน ตรวจสภาพและเปลี่ยนอะไหล่<br>จนถึงทดสอบความดัน การรั่ว และติดตั้งกลับ</p></div></section>
+<section class="section"><div class="wrap"><div class="section-heading"><div><p class="eyebrow">OUR SERVICE PROCESS</p><h2>4 ขั้นตอนของงานบริการ</h2></div><a class="text-link" href="../downloads/">ดาวน์โหลด Service Profile <span>↗</span></a></div><div class="service-steps">
+<article class="step-card"><img src="../assets/images/field-service.webp" alt="ทีมช่างถอด Sight Glass ที่หน้างาน" width="951" height="1268"><div class="step-copy"><span>01</span><div><h3>Remove / ถอดอุปกรณ์</h3><p>ถอดชุด Sight Glass จากหน้างาน เพื่อส่งเข้ากระบวนการตรวจสภาพและซ่อมบำรุงตามขอบเขตงานที่ตกลง</p></div></div></article>
+<article class="step-card"><img src="../assets/images/inspection.webp" alt="ชุด Sight Glass ระหว่างการตรวจสภาพก่อนทำความสะอาด" width="636" height="477"><div class="step-copy"><span>02</span><div><h3>Inspection & Dismantle</h3><p>ตรวจสภาพ ถอดแยกชิ้นส่วน ทำความสะอาด และเปลี่ยนอะไหล่ที่เกี่ยวข้องกับงาน Overhaul</p></div></div></article>
+<article class="step-card"><img src="../assets/images/pressure-test.webp" alt="การทดสอบความดันและการรั่วของชุด Sight Glass" loading="lazy" width="799" height="601"><div class="step-copy"><span>03</span><div><h3>Pressure & Leakage Test</h3><p>ตรวจสอบสภาพก่อนซ่อมและทดสอบขั้นสุดท้าย (As-found & Final Test) โดยกำหนดเงื่อนไขการทดสอบตามอุปกรณ์และขอบเขตงาน</p></div></div></article>
+<article class="step-card"><img src="../assets/images/reinstall.webp" alt="Sight Glass หลังการติดตั้งกลับในพื้นที่โรงงาน" loading="lazy" width="518" height="691"><div class="step-copy"><span>04</span><div><h3>Re-install / ติดตั้งกลับ</h3><p>ติดตั้งอุปกรณ์กลับที่หน้างานหลังผ่านกระบวนการซ่อมบำรุงและการทดสอบตามที่กำหนด</p></div></div></article>
+</div></div></section>
+<section class="section section-pale"><div class="wrap two-column"><div><p class="eyebrow">PARTS & WORKSHOP SUPPORT</p><h2>อะไหล่และพื้นที่ปฏิบัติงาน<br>สำหรับงานซ่อมบำรุง</h2><p>รองรับงานอะไหล่กระจก Mica, Gasket และส่วนประกอบสำหรับ Level Gauge พร้อม Workshop ที่ระยอง และอุปกรณ์สำหรับ Pressure Hydro Test</p><div class="actions" style="margin-top:25px"><a class="text-link" href="../products/#spares">ดูหมวดอะไหล่ <span>→</span></a><a class="text-link" href="../workshop/">ดู Workshop <span>→</span></a></div></div><img src="../assets/images/spare-parts.webp" alt="ชุดอะไหล่กระจกสำหรับงาน Sight Glass" loading="lazy" width="800" height="598"></div></section>
